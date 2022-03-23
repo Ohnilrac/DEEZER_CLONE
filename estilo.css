@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Roboto , sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: auto;
+    height: 32px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+/* BOTÃO*/
+.primeiro-botao{
+    display: flex;
+    color: white;
+    background-color: rgb(0 , 0 , 0 , 0.4);
+    background-blend-mode: color;
+    border: none;
+    border-radius: 60px;
+    padding: 30px 120px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 500ms ease;
+}
+.primeiro-botao:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+#navbar{
+    display: flex;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    color: black;
+}
+#navbar .navbar-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+#navbar .navbar-container ul{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+#navbar .navbar-container .navbar-itens {
+    font-size: 0.9rem;
+    padding: 10px 0; 
+
+}
+#navbar .navbar-container .navbar-itens .navbar-itens-barra {
+    font-size: 1.2rem;
+    padding: 10px 0; 
+}
+#navbar .navbar-container ul li{
+    margin: 0 15px;
+}
+#navbar .navbar-container ul li:hover{
+    cursor: pointer;
+}
+#navbar .navbar-container .navbar-itens-barra:hover{
+    margin-bottom: -5px;
+    border-bottom: 4px solid rgb(48, 152, 248);
+}
+#navbar .navbar-container #login{
+    color: rgb(48, 152, 248);
+    border: 3px solid rgb(48, 152, 248);
+    border-radius: 30px;
+    padding: 10px 30px; 
+}
+#navbar .navbar-container #login:hover{
+    color: rgb(33, 106, 173);
+    border: 3px solid rgb(33, 106, 173);
+    border-radius: 30px;
+    padding: 10px 30px; 
+}
+#navbar .navbar-container #cadastro{
+    background: rgb(48, 152, 248) ;
+    color: white;
+    border: 3px solid rgb(48, 152, 248);
+    border-radius: 30px;
+    padding: 10px 30px; 
+}
+#navbar .navbar-container #cadastro:hover{
+    color: white;
+    background: rgb(26, 93, 156);
+    border: 3px solid rgb(26, 93, 156);
+    border-radius: 30px;
+    padding: 10px 30px; 
+}
+
+/* CORPO DO SITE */
+
+#corpo{
+    background-image: linear-gradient(to right, rgb(224, 224, 0), rgb(206, 6, 99));
+    display: flex;
+    height: 83vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#corpo .corpo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70% ;
+}
+#corpo .corpo-container h1{
+    color: black;
+    font-size: 2.3rem;
+}
+#corpo .corpo-container h2{
+    font-size: 4.5rem;
+}
+#corpo .corpo-container p{
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 20px 0;
+}
+#corpo .corpo-container .corpo-container {
+    margin-bottom: 30px;
+}
+#corpo .corpo-container .corpo-container li{
+    line-height: 25px;
+}
+#corpo .corpo-container a{
+    padding-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+#corpo .corpo-container a:hover{
+    font-weight: bold;
+}
+
+/* INFORMAÇÕES TEXTUAIS DA PARTE 2 DO CORPO DO SITE*/ 
+
+#corpo2{
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+#corpo2 div{
+    float: left;
+}
+#corpo2 .corpo2-container{
+    width: 100%;
+    padding: 0 300px;
+    text-align: center;
+}
+#corpo2 .corpo2-container h1{
+    font-size: 5rem;
+    margin: 100px 0 100px 0;
+}
+#corpo2 .corpo2-container .info-texto{
+   margin: 0 42px;
+   width: 26%;
+   display: block;
+   text-align: left;
+}
+#corpo2 .corpo2-container .info-texto h3{
+    margin: 20px 0 20px 0;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 1.3rem ;
+}
+#corpo2 .corpo2-container .info-texto p{
+    color: #818181;
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+}
+
+/* FUNDO COM IMAGEM */ 
+
+#fundo-imagem{
+    display: block;
+}
+
+/*AREA CRIANÇAS*/
+
+#criancas{
+    display: flex;
+    justify-content: center;
+}
+#criancas .container-criancas{
+    padding: 0 300px;
+    text-align: center;
+    width: 50%;
+}
+#criancas .container-criancas h1{
+    font-size: 5rem;
+    margin: 100px 0 100px 0;
+}
+#criancas .container-criancas p{
+    color: #818181;
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 0 300px;
+}
+#criancas .container-criancas strong{
+    color: black;
+}
